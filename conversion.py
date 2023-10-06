@@ -2,12 +2,14 @@ from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 from moviepy.editor import VideoFileClip
 import os
 
+
 def normalize_timestamp(timestamp):
     parts = timestamp.split(':')
     while len(parts) < 3:
         parts.insert(0, '0')
     hours, minutes, seconds = map(int, parts)
     return hours, minutes, seconds
+
 
 # Prompt the user for the input video file
 input_video_file = input("Enter the input video file (e.g., input.mp4): ")
