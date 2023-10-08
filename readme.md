@@ -4,21 +4,21 @@
 
 ## How to install this project
 
-1. Clone this repo. - 'git clone https://github.com/robinawilliams/video_gif_conversion.git'
-2. Install moviepy dependency - 'pip install moviepy'
+1. Clone this repo
+2. Install moviepy dependency - `pip install moviepy`
 
 ## How to run this project
 
-1. Run the command - 'python conversion.py'
+1. Run the command - `python conversion.py`
 2. Enter the mp4 file you want to clip from, e.g., test.mp4
 3. Provide the start and end timestamps (HH:MM:SS, MM:SS, or SS) for the portion you want to clip.
 4. Enter the name you want to save the gif as, e.g. puppies. 
 
 The outputs will be saved to output_gifs.  
 
-## Find a bug? 
+## Find a bug?
 
-Please let me know if you find any bugs.
+If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created!
 
 ## Known issues
 
