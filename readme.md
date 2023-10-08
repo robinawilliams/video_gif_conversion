@@ -5,7 +5,7 @@
 ## How to install this project
 
 1. Clone this repo
-2. Install moviepy dependency - `pip install moviepy`
+2. Install dependencies - `pip install -r requirements.txt`
 
 ## How to run this project
 
